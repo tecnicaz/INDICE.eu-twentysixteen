@@ -1,0 +1,132 @@
+/* ==========================================================================
+   @tecnicaz custom styles
+   ========================================================================== */
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1050px;
+$screen-md-max: ($screen-lg-min - 1);
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.indiceeu {
+    background-color: #EFF0F1;
+    text-align: justify;
+
+
+    @media (max-width: $screen-xs-max) {
+        &__main-header {
+            height: 120px;
+            background-image: url('../img/background-image-header--xs.jpg');
+            background-position:  center center;
+        }
+        &__main-content {
+            background-color: #B0B4B4;
+            margin-right: 5px;
+            margin-left: 5px;
+            max-width: 768px;
+            padding: 0px;
+        }
+        &__main-sidebar {
+            display: none;
+        }
+    }
+    @media (min-width: $screen-sm-min) {
+        &__main-header {
+            height: 120px;
+            background-image: url('../img/background-image-header--xs.jpg');
+            background-position:  center center;
+        }
+    }
+    @media (max-width: $screen-sm-max) {
+        &__main-header {
+            height: 120px;
+            background-image: url('../img/background-image-header--xs.jpg');
+            background-position:  center center;
+        }
+    }
+    @media (min-width: $screen-md-min) {
+        &__main-header {
+            height: 120px;
+            background-image: url('../img/background-image-header--xs.jpg');
+            background-position:  center center;
+        }
+    }
+    @media (max-width: $screen-md-max) {
+        &__main-header {
+            height: 120px;
+            background-image: url('../img/background-image-header--xs.jpg');
+            background-position:  center center;
+        }
+    }
+    @media (min-width: $screen-lg-min) {
+        &__main-header {
+            height: 180px;
+            background-image: url('../img/background-image-header--lg.jpg');
+            background-position:  center center;
+        }
+        &__main-nav {
+            margin-top: -50px;
+            &>.container{
+                width: 1050px;
+            }
+            & .navbar-nav {
+                width: 100%;
+                text-align: center;
+                background-color: rgba(255, 255, 255, 0.15);
+                > li {
+                  float: none;
+                  display: inline-block;
+                }
+                >.active>a {
+                    background-color: transparent;;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    box-shadow: none;
+                }
+            }
+        }
+        &__main-wrapper {
+            padding: 0px;
+            width: 1050px;
+            background-color: #4C97A2;
+            &>.row {
+                margin-right: 0px;
+                margin-left: 0px;
+                background-color: aqua;
+            }
+        }
+        &__main-content {
+            background-color: #B0B4B4;
+            margin-right: 5px;
+            margin-left: 5px;
+            max-width: 730px;
+            padding: 0px;
+        }
+        &__main-sidebar {
+            margin-right: 5px;
+            margin-left: 5px;
+            background-color: #68AAA3;
+            width: 300px;
+            padding: 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

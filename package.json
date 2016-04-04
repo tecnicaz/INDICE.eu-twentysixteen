@@ -1,0 +1,24 @@
+{
+  "name": "indice.eu-twentysixteen",
+  "version": "1.0.0",
+  "description": "First iteration of a new way creating themes for INDICE.eu",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecnicaz/INDICE.eu-twentysixteen.git"
+  },
+  "author": "@tecnicaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecnicaz/INDICE.eu-twentysixteen/issues"
+  },
+  "homepage": "https://github.com/tecnicaz/INDICE.eu-twentysixteen#readme"
+}
