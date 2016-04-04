@@ -1,6 +1,17 @@
 /* ==========================================================================
    @tecnicaz custom styles
    ========================================================================== */
+	//== Colors
+
+	$asbestos:				rgba(127, 140, 141,1.0) !default;
+	$silver:				rgba(189, 195, 199,1.0);
+	$alizarin:              rgba(231, 76, 60,1.0);
+	$pumpkin:            	rgba(211, 84, 0,1.0);
+	$green-sea:           	rgba(22, 160, 133,1.0);
+
+
+	
+
 $screen-sm-min: 768px;
 $screen-xs-max: ($screen-sm-min - 1);
 $screen-md-min: 992px;
@@ -14,7 +25,7 @@ $screen-md-max: ($screen-lg-min - 1);
    border-color: transparent;
 }
 .indiceeu {
-    background-color: #EFF0F1;
+    background-color: $asbestos;
     text-align: justify;
 
 
@@ -71,6 +82,7 @@ $screen-md-max: ($screen-lg-min - 1);
         }
         &__main-nav {
             margin-top: -50px;
+            margin-bottom: 10px;
             &>.container{
                 width: 1050px;
             }
@@ -97,11 +109,11 @@ $screen-md-max: ($screen-lg-min - 1);
             &>.row {
                 margin-right: 0px;
                 margin-left: 0px;
-                background-color: aqua;
+                background-color: $alizarin;
             }
         }
         &__main-content {
-            background-color: #B0B4B4;
+            background-color: $pumpkin;
             margin-right: 5px;
             margin-left: 5px;
             max-width: 730px;
@@ -110,10 +122,33 @@ $screen-md-max: ($screen-lg-min - 1);
         &__main-sidebar {
             margin-right: 5px;
             margin-left: 5px;
-            background-color: #68AAA3;
+            background-color: $green-sea;
             width: 300px;
             padding: 0;
         }
+		
+		// Blocks
+		&__main-sidebar__block {
+			margin-bottom: 15px;
+			&.sidebar-addthis {
+				height: 45px;
+				margin-bottom: 0px;
+			}	
+		}
+
+		&__main-breadcrumb__block {
+			.breadcrumb {
+				font-weight: 400;
+	    		height: 35px;
+	    		line-height: 35px;
+	    		padding: 0 0 0 10px;
+	    		border-radius: 4px;
+	    		margin-bottom: 10px;
+	    		a {
+      				color: #777777;
+      			}
+			}
+		}
     }
 }
 

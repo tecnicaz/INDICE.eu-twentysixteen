@@ -7,7 +7,7 @@
   border-color: transparent; }
 
 .indiceeu {
-  background-color: #EFF0F1;
+  background-color: #7f8c8d;
   text-align: justify; }
   @media (max-width: 767px) {
     .indiceeu__main-header {
@@ -48,7 +48,8 @@
       background-image: url("../img/background-image-header--lg.jpg");
       background-position: center center; }
     .indiceeu__main-nav {
-      margin-top: -50px; }
+      margin-top: -50px;
+      margin-bottom: 10px; }
       .indiceeu__main-nav > .container {
         width: 1050px; }
       .indiceeu__main-nav .navbar-nav {
@@ -70,9 +71,9 @@
       .indiceeu__main-wrapper > .row {
         margin-right: 0px;
         margin-left: 0px;
-        background-color: aqua; }
+        background-color: #e74c3c; }
     .indiceeu__main-content {
-      background-color: #B0B4B4;
+      background-color: #d35400;
       margin-right: 5px;
       margin-left: 5px;
       max-width: 730px;
@@ -80,6 +81,20 @@
     .indiceeu__main-sidebar {
       margin-right: 5px;
       margin-left: 5px;
-      background-color: #68AAA3;
+      background-color: #16a085;
       width: 300px;
-      padding: 0; } }
+      padding: 0; }
+    .indiceeu__main-sidebar__block {
+      margin-bottom: 15px; }
+      .indiceeu__main-sidebar__block.sidebar-addthis {
+        height: 45px;
+        margin-bottom: 0px; }
+    .indiceeu__main-breadcrumb__block .breadcrumb {
+      font-weight: 400;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 0 0 10px;
+      border-radius: 4px;
+      margin-bottom: 10px; }
+      .indiceeu__main-breadcrumb__block .breadcrumb a {
+        color: #777777; } }
